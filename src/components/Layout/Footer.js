@@ -5,10 +5,10 @@ import Link from 'next/link'
 
 import CallToAction from '../Common/CallToAction'
 import { useRouter } from 'next/router'
-import {  BsInstagram } from 'react-icons/bs'
+import { BsInstagram } from 'react-icons/bs'
 import { SiFiverr } from 'react-icons/si'
 import { FaFacebookF } from 'react-icons/fa'
-const Footer = () => {∂
+const Footer = () => {
   const router = useRouter()
   console.log('router', router.pathname)
   return (
