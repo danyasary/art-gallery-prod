@@ -4,20 +4,23 @@ import Grid from '../Common/Grid'
 import { Tab } from '@headlessui/react'
 import CardProduct from './components/CardProduct'
 import packageProduct from '@/data/packageProduct.json'
-const OurService = () => {
-  const serviceButton = [
-    'NFT',
-    'Dark Art',
-    'Ilustration',
-    'Logo',
-    'ArtWork',
-    'Other',
-  ]
+export const serviceButton = [
+  'NFT',
+  'Dark Art',
+  'Ilustration',
+  'Logo',
+  'ArtWork',
+  'Other',
+]
 
+const OurService = () => {
   return (
     <Grid className={'mb-14 lg:mb-[200px]'}>
       <div className="col-start-2 col-span-2 lg:col-span-3">
-        <h2 className="text-xl lg:text-2xl font-semibold lg:mb-11 text-white text-center ">
+        <h2
+          className="text-xl lg:text-2xl font-semibold lg:mb-11 text-white text-center "
+          data-aos="fade-up"
+        >
           Our Service
         </h2>
       </div>
@@ -32,6 +35,8 @@ const OurService = () => {
                       variant={selected ? 'primary' : 'outline'}
                       className="flex-grow rounded flex-shrink-0 sm:flex-shrink"
                       key={index}
+                      data-aos="fade-down"
+                      data-aos-delay={`${index * 300}`}
                     >
                       {item}
                     </Button>
@@ -51,6 +56,8 @@ const OurService = () => {
                   {item.map((packageItem, index) => {
                     return (
                       <CardProduct
+                        data-aos="fade-down"
+                        data-aos-delay={`${index * 300}`}
                         key={index}
                         namePackage={packageItem.namePackage}
                         listItem={packageItem.listItem}
