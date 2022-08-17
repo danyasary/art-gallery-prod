@@ -38,6 +38,17 @@
        width: 497px;
     }
  }
+ .swiper-pagination{
+   @apply flex justify-center items-center gap-2;
+ }
+ .swiper-pagination-bullet {
+   @apply h-2 lg:h-3 w-2 lg:w-3 bg-transparent border border-neutral-50 hover:bg-brand-secondary hover:border-brand-secondary rounded-full  transition-all mx-2;
+ }
+ 
+ .swiper-pagination-bullet-active {
+  @apply h-2 lg:h-3 w-2 lg:w-3 bg-brand-secondary border border-brand-secondary rounded-full transition-all;
+ }
+ 
    
 
  @media screen and (min-width: 1280px) {

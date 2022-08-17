@@ -1,5 +1,6 @@
 import CallToAction from '@/components/Common/CallToAction'
 import Container from '@/components/Common/Container'
+import Seo from '@/components/Common/Seo'
 import Layout from '@/components/Layout/Layout'
 import Image from 'next/image'
 import React from 'react'
@@ -7,6 +8,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <Layout>
+      <Seo />
       <div className="w-full h-[580px] relative">
         <Image
           src="/contact/bg-artmazigh.png"

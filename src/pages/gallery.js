@@ -4,6 +4,7 @@ import React, { Fragment } from 'react'
 
 import ListProductMobile from '@/components/Gallery/ListProductMobile'
 import ListProductDekstop from '@/components/Gallery/ListProductDekstop'
+import Seo from '@/components/Common/Seo'
 /*
  * * 1. Container sesuai design
  * * 2. Grid sesuai design, grid 3 column. & ga ada jaraknya.
@@ -16,6 +17,7 @@ const Gallery = () => {
   const [filterTab, setFilterTab] = React.useState('nft')
   return (
     <Layout>
+      <Seo />
       <Container>
         <ListProductMobile />
         <ListProductDekstop />

@@ -1,5 +1,6 @@
 import Container from '@/components/Common/Container'
 import Grid from '@/components/Common/Grid'
+import Seo from '@/components/Common/Seo'
 import Sidebar from '@/components/GalleryDetails/Sidebar'
 import Thumbnails from '@/components/GalleryDetails/Thumbnails'
 import Topbar from '@/components/GalleryDetails/Topbar'
@@ -11,6 +12,7 @@ import React from 'react'
 const GalleryDetails = () => {
   return (
     <Layout>
+      <Seo />
       <Thumbnails />
       <Container className={'mb-52'}>
         <Grid className={' pt-3 sm:pt-11'}>

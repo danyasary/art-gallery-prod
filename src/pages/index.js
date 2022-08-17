@@ -2,6 +2,7 @@
 
 // import Button from '@/components/Common/Button';
 import Container from '@/components/Common/Container'
+import Seo from '@/components/Common/Seo'
 
 import AboutUs from '@/components/Homepage/AboutUs'
 
@@ -14,6 +15,7 @@ import Layout from '@/components/Layout/Layout'
 export default function Home() {
   return (
     <Layout>
+      <Seo />
       <Jumbotron />
       <Container className="mt-4">
         <AboutUs />

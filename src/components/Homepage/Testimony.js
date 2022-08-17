@@ -7,10 +7,8 @@ import Container from '../Common/Container'
 import React from 'react'
 import useSwiperRef from '@/hooks/useSwiperRef'
 import CardPerson from './components/CardPerson'
-// import { Navigation, A11y } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
-import 'swiper/css/scrollbar'
+import { Pagination, Navigation } from 'swiper'
 
 const Testimony = () => {
   const data = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
@@ -33,19 +31,16 @@ const Testimony = () => {
             data-aos-delay="200"
           >
             <button
-              className="h-6 w-6 flex items-center justify-center"
+              className="h-6 w-6  items-center justify-center hidden lg:flex"
               ref={prevElRef}
             >
               <ChevronLeftIcon className="h-4 w-4 text-neutral-50 hover:text-brand-primary transition-all" />{' '}
             </button>
-            <button>
-              <div className="h-3 w-3 bg-brand-secondary border border-brand-secondary rounded-full transition-all"></div>
-            </button>
-            <button>
-              <div className="h-3 w-3 bg-transparent border border-neutral-50 hover:bg-brand-secondary hover:border-brand-secondary  rounded-full  transition-all"></div>
-            </button>
-
-            <button ref={nextElRef}>
+            <div className="list-pagination-testimony flex items-center justify-center gap-1"></div>
+            <button
+              className="h-6 w-6  items-center justify-center hidden lg:flex"
+              ref={nextElRef}
+            >
               {' '}
               <ChevronRightIcon className="h-4 w-4 text-neutral-50 hover:text-brand-primary transition-all" />
             </button>
@@ -54,11 +49,16 @@ const Testimony = () => {
       </div>
       <div className=" max-w-[340px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1340px] mx-auto sm:ml-auto sn:mr-0 2xl:mx-auto overflow-x-hidden">
         <Swiper
-          // install Swiper modules
-          // modules={[Navigation, A11y]}
+          pagination={{
+            el: '.list-pagination-testimony',
+            clickable: true,
+            renderBullet: (index, className) => {
+              return '<span class="' + className + '"></span>'
+            },
+          }}
           spaceBetween={20}
           slidesPerView={'auto'}
-          // centeredSlides={true}
+          modules={[Pagination, Navigation]}
           loop={true}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
