@@ -6,7 +6,7 @@ import Grid from '../Common/Grid'
 export default function Navbar() {
   return (
     <>
-      <div className="w-full bg-[#191E29]">
+      <div className="w-full bg-quaternary">
         <Container>
           <Grid>
             <div className="col-span-2 flex items-center">

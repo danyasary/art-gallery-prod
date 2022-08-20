@@ -27,9 +27,14 @@ const ListProductDekstop = () => {
                     alt={gallery[i].title}
                   />
                   <div className="bg-gallery top-0 left-0 bottom-0 right-0 flex absolute invisible group-hover:visible transition-all duration-100">
-                    <p className="text-xl text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100 absolute flex-auto ml-[32px] mt-[411px] text-clip overflow-hidden">
-                      {gallery[i].title}
-                    </p>
+                    <div className="relative pb-10 px-8 flex flex-col mt-auto">
+                      <h5 className="text-base sm:text-xl text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  text-clip overflow-hidden mb-2 sm:mb-3 ">
+                        {gallery[i].title}
+                      </h5>
+                      <p className="text-2xs sm:text-xs text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  text-clip overflow-hidden">
+                        {gallery[i].description}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </a>
