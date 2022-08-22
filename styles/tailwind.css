@@ -11,9 +11,11 @@
       font-family: "San Francisco";
       src: url("../public/fonts/sf-pro-display.otf");
   }
-
+html,body{
+   @apply overflow-x-hidden;
+}
  body{
-  @apply text-white font-sf-pro overflow-x-hidden;
+  @apply text-white font-sf-pro ;
  }
  h1,h2,h3,h4,h5,h6 {
     @apply font-prettywise tracking-[0.03em];

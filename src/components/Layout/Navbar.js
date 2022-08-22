@@ -11,7 +11,7 @@ export default function Navbar() {
   console.log('router', pathnameRegex)
   return (
     <>
-      <div className="w-full bg-[#191E29]">
+      <div className="w-full bg-quaternary">
         <Container>
           <Grid>
             <div className="col-span-2 flex items-center">
