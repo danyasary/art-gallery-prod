@@ -11,7 +11,7 @@ import { FaFacebookF } from 'react-icons/fa'
 import Grid from '../Common/Grid'
 const Footer = () => {
   const router = useRouter()
-  console.log('router', router.pathname)
+
   return (
     <>
       <div className="bg-brand-senary w-full  lg:h-[300px] xl:h-[388px]">
