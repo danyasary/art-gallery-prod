@@ -8,12 +8,14 @@ import Layout from '@/components/Layout/Layout'
 
 import Image from 'next/image'
 import React from 'react'
+import listGallery from '@/api/gallery.json'
 
-const GalleryDetails = () => {
+const GalleryDetails = ({ post }) => {
+  // console.log('posts', post)
   return (
     <Layout>
       <Seo />
-      <Thumbnails />
+      <Thumbnails post={post} />
       <Container className={'mb-52'}>
         <Grid className={' pt-3 lg:pt-11'}>
           <div className="col-span-full lg:col-span-5 -mx-8 sm:mx-0">
@@ -25,7 +27,7 @@ const GalleryDetails = () => {
                 width={498}
                 height={664}
                 alt="Art Magaize"
-                src="/artworks/1.png"
+                src={post.imgSrc || '/artworks/1.png'}
                 objectFit="cover"
                 layout="fill"
               />
@@ -35,27 +37,11 @@ const GalleryDetails = () => {
             className="col-span-full lg:col-span-7 flex flex-col gap-3 sm:gap-7"
             data-aos="fade-right"
           >
-            <Topbar />
-            <p className="text-xs sm:text-base">
-              Industrisafari temposion rågigt obuligen och pretägt prov puktigt
-              råvabel eftersom relagon tiskapet. Fuliga köns, oska behet.
-              Beledes monodera emedan nylörade. Trav blåbrun vakärar donde ör
-              suliga för börsrobot i kasongar medan kagisk polystik peköktiga
-              inde ett prede sedan sest, möra divuvybelt. Tösam köning om
-              kasoling mödäl jånar. Zlatanera ninera, reande fast parare sorade
-              sabösam koheten vid semin preneskap sedan anteskapet, heterosk
-              mötertad hufolig ajåhet pusade bell. Apfälla täledes i åkrosk i
-              monor diktig social turism än sabel. Sun tälig, kol prortad. Panat
-              hurökal dissa krorade emedan der beligen kast mabel diagt dossade
-              krolig vism lubass, krohet ovusk heteroböna. Kyseheten orade kada
-              kavipreras inte sykalig parade synyse megast, kasade, de prening
-              biosm, innan nirat trirent i inynde diasm i mandatpingis. Tänade
-              lavis tills kaninade nertad tills automent sarade selur i niss jag
-              soligt även om pres, bärårås onenat mosamma. Bev stenov: med mung.
-            </p>
+            <Topbar post={post} />
+            <p className="text-xs sm:text-base">{post.description}</p>
             <div className="aspect-video">
               <iframe
-                src={'https://www.youtube.com/embed/' + 'v=_Uv0AMeYcwg'}
+                src={'https://www.youtube.com/embed/' + post.youtube}
                 title={'video title'}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -68,6 +54,27 @@ const GalleryDetails = () => {
       </Container>
     </Layout>
   )
+}
+//create getStaticProps from listGallery json
+export const getStaticProps = async ({ params }) => {
+  const post = listGallery.find((p) => p.link === params.link)
+  return {
+    props: {
+      post,
+    },
+  }
+}
+// create getStaticPaths from listGallery json
+export const getStaticPaths = async () => {
+  const paths = listGallery.map((post) => ({
+    params: {
+      link: post.link.toString(),
+    },
+  }))
+  return {
+    paths,
+    fallback: false,
+  }
 }
 
 export default GalleryDetails

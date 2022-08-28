@@ -8,10 +8,10 @@ import clsx from 'clsx'
 export default function Navbar() {
   const router = useRouter()
   const pathnameRegex = router.pathname.replace(/^\/([^\/]*).*$/, '$1')
-  console.log('router', pathnameRegex)
+  // console.log('router', pathnameRegex)
   return (
     <>
-      <div className="w-full bg-quaternary">
+      <div className="w-full bg-quaternary relative z-10">
         <Container>
           <Grid>
             <div className="col-span-2 flex items-center">

@@ -8,7 +8,7 @@ const Product = ({ urlProduct, titleProduct, imgProduct, paragrafProduct }) => {
     <>
       <Link href={`/gallery/${urlProduct}`} passHref>
         <a>
-          <div className="w-full h-[192px] sm:h-[300px] lg:h-[472px] group relative overflow-hidden rounded-lg mb-3">
+          <div className="w-full h-[192px] sm:h-[300px] lg:h-[472px] group relative overflow-hidden rounded-lg lg:mb-3">
             <Image
               src={imgProduct}
               alt={titleProduct}
@@ -25,7 +25,7 @@ const Product = ({ urlProduct, titleProduct, imgProduct, paragrafProduct }) => {
             </div>
           </div>
 
-          <div className="flex flex-col">
+          <div className="hidden lg:flex flex-col">
             <div className="flex items-center mb-2">
               <StarIcon className="h-[14px] w-[14px] mr-1 text-brand-primary" />
               <p className="text-white text-sm">5</p>

@@ -60,8 +60,8 @@ const Testimony = () => {
           slidesPerView={'auto'}
           modules={[Pagination, Navigation]}
           loop={true}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
+          // onSwiper={(swiper) => console.log(swiper)}
+          // onSlideChange={() => console.log('slide change')}
           id="testimoni-slider"
           navigation={{
             prevEl,

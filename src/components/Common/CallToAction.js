@@ -37,6 +37,7 @@ const CallToAction = () => {
                 id="name"
                 type="text"
                 placeholder="Input your name here..."
+                required
               />
             </div>
             <div className="" data-aos="fade-up" data-aos-delay="500">
@@ -49,7 +50,8 @@ const CallToAction = () => {
               <input
                 className="shadow appearance-none p-4  h-[54px] w-full lg:w-[300px] xl:w-[296px] border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-brand-primary  placeholder:text-base"
                 id="email"
-                type="text"
+                type="email"
+                required
                 placeholder="Input your e-mail here..."
               />
             </div>

@@ -4,10 +4,11 @@ import Image from 'next/image'
 import gallery from '@/data/gallery.json'
 import Link from 'next/link'
 
-const ListProductDekstop = () => {
+const ListProductDekstop = ({ data }) => {
+  // console.log('data', data)
   return (
     <div className="hidden lg:grid grid-cols-3 mb-[245px] ">
-      {gallery.map((el, i) => {
+      {data.map((el, i) => {
         return (
           <>
             {/* class parent harus relative kalo childrennya pake class absolute */}

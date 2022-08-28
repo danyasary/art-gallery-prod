@@ -61,29 +61,32 @@ const Footer = () => {
             </div>
             <div className="col-span-full lg:col-span-3 lg:col-end-13 flex items-center justify-center lg:justify-end row-start-4  lg:row-start-1">
               <div className="flex flex-row space-x-8 mb-[70px] lg:mb-0">
-                <Link href="/">
+                <Link href="https://www.facebook.com/artmazigh">
                   <a
                     className="bg-brand-primary h-11 w-11 rounded-full flex items-center justify-center transition-all hover:opacity-60"
                     data-aos="fade-down"
                     data-aos-delay="500"
+                    target={'_blank'}
                   >
                     <FaFacebookF className="w-8 h-8 text-white" />
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="https://www.instagram.com/art.mazigh/">
                   <a
                     className="bg-brand-primary h-11 w-11 rounded-full flex items-center justify-center transition-all hover:opacity-60"
                     data-aos="fade-down"
                     data-aos-delay="600"
+                    target={'_blank'}
                   >
                     <BsInstagram className="w-8 h-8 text-white" />
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="https://www.fiverr.com/artmazigh">
                   <a
                     className="bg-brand-primary h-11 w-11 rounded-full flex items-center justify-center transition-all hover:opacity-60"
                     data-aos="fade-down"
                     data-aos-delay="700"
+                    target={'_blank'}
                   >
                     <SiFiverr className="w-8 h-8 text-white" />
                   </a>
