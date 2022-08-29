@@ -20,7 +20,7 @@ const Contact = () => {
           layout="fill"
         />
       </div>
-      <Container className={'absolute top-0'}>
+      <Container className={'absolute inset-0'}>
         <div className="relative z-[3]">
           <CallToAction />
         </div>

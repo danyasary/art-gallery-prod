@@ -1,7 +1,6 @@
 import Container from '@/components/Common/Container'
 import Grid from '@/components/Common/Grid'
 import Seo from '@/components/Common/Seo'
-import Sidebar from '@/components/GalleryDetails/Sidebar'
 import Thumbnails from '@/components/GalleryDetails/Thumbnails'
 import Topbar from '@/components/GalleryDetails/Topbar'
 import Layout from '@/components/Layout/Layout'
