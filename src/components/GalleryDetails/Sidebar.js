@@ -1,15 +1,21 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import StarIcon from '../../../public/icons/star.svg'
 import Sticky from 'react-sticky-el'
 
 import { ShareIcon } from '@heroicons/react/solid'
 import clsx from 'clsx'
 const Sidebar = () => {
-  const [isSticky, setIsSticky] = React.useState(false)
+  const [isSticky, setIsSticky] = useState(false)
+  const [copySuccess, setCopySuccess] = useState('')
+  const textAreaRef = useRef(null)
   const onFixedToggle = () => {
     setIsSticky(!isSticky)
   }
 
+  async function copyToClip() {
+    await navigator.clipboard.writeText(location.href)
+    setCopySuccess('Copied')
+  }
   return (
     <Sticky onFixedToggle={onFixedToggle}>
       <div
@@ -31,7 +37,7 @@ const Sidebar = () => {
           <p className="text-xs text-neutral-50 mb-1">Date</p>
           <p className="text-base">01 January 2022</p>
         </div>
-        <button>
+        <button className="" onClick={copyToClip}>
           <ShareIcon className="h-6 w-6 text-white" />
         </button>
       </div>

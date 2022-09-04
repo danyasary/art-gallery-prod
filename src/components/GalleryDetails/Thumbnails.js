@@ -2,11 +2,12 @@ import React from 'react'
 import Breadcumb from '../Common/Breadcumb'
 import Container from '../Common/Container'
 
-const Thumbnails = () => {
+const Thumbnails = ({ post }) => {
+  // console.log('Breadcumb', post)
   return (
     <>
       <Container className={'pt-7'}>
-        <Breadcumb />
+        <Breadcumb title={post.title} />
       </Container>
     </>
   )

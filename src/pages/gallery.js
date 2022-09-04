@@ -5,22 +5,16 @@ import React, { Fragment } from 'react'
 import ListProductMobile from '@/components/Gallery/ListProductMobile'
 import ListProductDekstop from '@/components/Gallery/ListProductDekstop'
 import Seo from '@/components/Common/Seo'
-/*
- * * 1. Container sesuai design
- * * 2. Grid sesuai design, grid 3 column. & ga ada jaraknya.
- * * 3. import gambar dan benar
- * * 4. Looping gambar tersebut
- * * 5. data utk simpan url gambar
- */
+import listGallery from '@/api/gallery.json'
+
 const Gallery = () => {
-  // console.log(gallery[0], "isinya obj imgsrc")
-  const [filterTab, setFilterTab] = React.useState('nft')
   return (
     <Layout>
       <Seo />
       <Container>
-        <ListProductMobile />
-        <ListProductDekstop />
+        <ListProductMobile data={listGallery} />
+
+        <ListProductDekstop data={listGallery} />
       </Container>
     </Layout>
   )
