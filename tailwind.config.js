@@ -9,6 +9,7 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
         prettywise: ['prettywise', 'regular'],
         'sf-pro': ['San Francisco', 'sans-serif'],
+        muara: ['Muara', 'sans-serif'],
       },
       fontSize: {
         '6xl': ['64px', '1.25'],

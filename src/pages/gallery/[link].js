@@ -6,11 +6,11 @@ import Topbar from '@/components/GalleryDetails/Topbar'
 import Layout from '@/components/Layout/Layout'
 
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
 import listGallery from '@/api/gallery.json'
+import OtherProduct from '@/components/GalleryDetails/OtherProduct'
 
 const GalleryDetails = ({ post }) => {
-  // console.log('posts', post)
   return (
     <Layout>
       <Seo />
@@ -48,6 +48,9 @@ const GalleryDetails = ({ post }) => {
                 className="w-full h-full"
               ></iframe>
             </div>
+          </div>
+          <div className="col-span-full">
+            <OtherProduct />
           </div>
         </Grid>
       </Container>

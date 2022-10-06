@@ -8,7 +8,7 @@ import React from 'react'
 import useSwiperRef from '@/hooks/useSwiperRef'
 import CardPerson from './components/CardPerson'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, Navigation } from 'swiper'
+import { Autoplay, Pagination, Navigation } from 'swiper'
 
 const Testimony = () => {
   const data = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
@@ -56,9 +56,13 @@ const Testimony = () => {
               return '<span class="' + className + '"></span>'
             },
           }}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           spaceBetween={20}
           slidesPerView={'auto'}
-          modules={[Pagination, Navigation]}
+          modules={[Autoplay, Pagination, Navigation]}
           loop={true}
           // onSwiper={(swiper) => console.log(swiper)}
           // onSlideChange={() => console.log('slide change')}

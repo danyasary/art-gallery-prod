@@ -13,7 +13,6 @@ const Gallery = () => {
       <Seo />
       <Container>
         <ListProductMobile data={listGallery} />
-
         <ListProductDekstop data={listGallery} />
       </Container>
     </Layout>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, Navigation } from 'swiper'
+import { Autoplay, Pagination, Navigation } from 'swiper'
 
 import SlideJumbotron from './components/SlideJumbotron'
 import useSwiperRef from 'src/hooks/useSwiperRef'
@@ -17,6 +17,10 @@ const Jumbotron = () => {
         <Swiper
           // install Swiper modules
           // modules={[Navigation, A11y]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={{
             el: '.list-pagination',
             clickable: true,
@@ -24,7 +28,7 @@ const Jumbotron = () => {
               return '<span class="' + className + '"></span>'
             },
           }}
-          modules={[Pagination, Navigation]}
+          modules={[Autoplay, Pagination, Navigation]}
           spaceBetween={0}
           slidesPerView={1}
           // centeredSlides={true}

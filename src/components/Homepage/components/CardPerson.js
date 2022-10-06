@@ -14,8 +14,11 @@ const CardPerson = ({ ...props }) => {
       <div className="flex flex-col">
         <div className="flex items-end mb-1 sm:mb-3">
           <p className=" text-base sm:text-xl mr-3">Kayib</p>
-          <StarIcon className="h-4 w-4 text-brand-secondary mb-[2px] mr-1" />
-          <p className=" text-sm sm:text-base">5</p>
+          <StarIcon className="h-4 w-4 text-brand-primary mb-[2px] mr-1" />
+          <StarIcon className="h-4 w-4 text-brand-primary mb-[2px] mr-1" />
+          <StarIcon className="h-4 w-4 text-brand-primary mb-[2px] mr-1" />
+          <StarIcon className="h-4 w-4 text-brand-primary mb-[2px] mr-1" />
+          <StarIcon className="h-4 w-4 text-brand-primary mb-[2px] mr-1" />
         </div>
         <p className="text-sm mb-3">
           Fantastic! I’ve worked with them multiple times and each time they

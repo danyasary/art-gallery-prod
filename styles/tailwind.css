@@ -11,6 +11,10 @@
       font-family: "San Francisco";
       src: url("../public/fonts/sf-pro-display.otf");
   }
+   @font-face {
+      font-family: "Muara";
+      src: url("../public/fonts/muara.ttf");
+  }
 html,body{
    @apply overflow-x-hidden;
 }
