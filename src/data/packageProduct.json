@@ -1,194 +1,408 @@
 [
   [
     {
-      "namePackage": "Standar Package",
+      "namePackage": "Basic Package",
       "listItem": [
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-        
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "40"
-     },
-     {
+      "price": "45"
+    },
+    {
       "namePackage": "Medium Package",
       "listItem": [
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-        
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "60"
-     },
-     {
+      "price": "75"
+    },
+    {
       "namePackage": "Premium Package",
       "listItem": [
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-        
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
       ],
-      "price": "90"
-     }
+      "price": "100"
+    }
   ],
   [
     {
-      "namePackage": "Standar Package",
+      "namePackage": "Basic Package",
       "listItem": [
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-        
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "40"
-     },
-     {
+      "price": "50"
+    },
+    {
       "namePackage": "Medium Package",
       "listItem": [
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-        
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "40"
-     },
-     {
+      "price": "80"
+    },
+    {
       "namePackage": "Premium Package",
       "listItem": [
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-        "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-        
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
       ],
-      "price": "40"
-     }
+      "price": "120"
+    }
   ],
- [
-  {
-    "namePackage": "Standar Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   },
-   {
-    "namePackage": "Medium Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   },
-   {
-    "namePackage": "Premium Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   }
-],
- [
-  {
-    "namePackage": "Standar Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   },
-   {
-    "namePackage": "Medium Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   },
-   {
-    "namePackage": "Premium Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   }
-],
- [
-  {
-    "namePackage": "Standar Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   },
-   {
-    "namePackage": "Medium Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   },
-   {
-    "namePackage": "Premium Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   }
-],
- [
-  {
-    "namePackage": "Standar Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   },
-   {
-    "namePackage": "Medium Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   },
-   {
-    "namePackage": "Premium Package",
-    "listItem": [
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization.",
-      "NFT is a digital asset that can be used to create a unique identity for a person or organization."
-      
-    ],
-    "price": "40"
-   }
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ]
 ]
- ]

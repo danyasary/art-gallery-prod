@@ -5,12 +5,20 @@ import { Tab } from '@headlessui/react'
 import CardProduct from './components/CardProduct'
 import packageProduct from '@/data/packageProduct.json'
 export const serviceButton = [
-  'NFT',
+  'Rebel',
+  'Cyberpunk',
+  'Japan Style',
+  'Album and Podcast Covers',
+  'Rebel Cartoon',
   'Dark Art',
-  'Ilustration',
-  'Logo',
-  'ArtWork',
-  'Other',
+  'Streetwear Style',
+  'Animation Video',
+  'Children’s Book Illustration',
+  'NFT',
+  'Logo Design',
+  'Automotive Design',
+  'Band’s Merchandise',
+  'Traditional Tattoo',
 ]
 
 const OurService = () => {
@@ -26,7 +34,7 @@ const OurService = () => {
       </div>
       <div className="col-span-full ">
         <Tab.Group defaultIndex={0}>
-          <Tab.List className="gap-4 flex mb-8 overflow-x-auto lg:overflow-x-hidden">
+          <Tab.List className="gap-4 flex flex-wrap mb-8 overflow-x-auto lg:overflow-x-hidden">
             {serviceButton.map((item, index) => {
               return (
                 <Tab as={Fragment}>
@@ -36,7 +44,7 @@ const OurService = () => {
                       className="flex-grow rounded flex-shrink-0 sm:flex-shrink"
                       key={index}
                       data-aos="fade-down"
-                      data-aos-delay={`${index * 300}`}
+                      data-aos-delay={`${index * 100}`}
                     >
                       {item}
                     </Button>

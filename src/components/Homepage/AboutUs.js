@@ -30,12 +30,15 @@ const AboutUs = () => {
           <p className="text-sm mb-4 lg:mb-8">
             Inspired by a nomadic tribe that calls themselves the Amazigh (which
             means free or noble people) in North Africa, Artmazigh team believes
-            that everyone is free and unique individual, and imagination is no
-            exception. Through the illustration works that we have done since
+            that everyone is a free and unique individual, as well as the
+            imagination. Through the illustration works that we have done since
             2011 and together with people who believe in the power of
             imagination (Musicians, Politicians, Soldiers, Writers, Youtubers,
             Gamers, Athletes and many more), we call on everyone to have brave
             imaginations and go beyond the feeling of failing to make it happen.
+            1,334 people have teamed up with us to make their imaginations come
+            true. It’s your turn now! Visit us on: @art.mazigh (Instagram) and
+            artmazigh (fiverr.com/artmazigh)
           </p>
         </div>
         <div className="flex flex-col">
