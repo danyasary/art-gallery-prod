@@ -56,7 +56,7 @@ const OtherProduct = () => {
                         <h5 className="text-base sm:text-xl text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  text-clip overflow-hidden mb-2 sm:mb-3 ">
                           {dataShuffle[i].title}
                         </h5>
-                        <p className="text-2xs sm:text-xs text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  text-clip overflow-hidden">
+                        <p className="text-2xs sm:text-xs text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto overflow-hidden  whitespace-nowrap text-ellipsis max-w-[200px]">
                           {dataShuffle[i].description}
                         </p>
                       </div>
@@ -93,7 +93,7 @@ const OtherProduct = () => {
                         <h5 className="text-base sm:text-xl text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  text-clip overflow-hidden mb-2 sm:mb-3 ">
                           {dataShuffle[i].title}
                         </h5>
-                        <p className="text-2xs sm:text-xs text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  text-clip overflow-hidden">
+                        <p className="text-2xs sm:text-xs text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  overflow-hidden  whitespace-nowrap text-ellipsis max-w-[300px]">
                           {dataShuffle[i].description}
                         </p>
                       </div>
