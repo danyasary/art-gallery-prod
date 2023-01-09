@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <Layout>
       <Seo />
-      <div className="w-full h-[580px] relative">
+      <div className="w-full h-[580px] relative pt-[80px] sm:pt-[93px]">
         <Image
           src="/contact/bg-artmazigh.png"
           alt="Artmazigh"
@@ -21,7 +21,7 @@ const Contact = () => {
         />
       </div>
       <Container className={'absolute inset-0'}>
-        <div className="relative z-[3]">
+        <div className="relative z-[11]">
           <CallToAction />
         </div>
       </Container>

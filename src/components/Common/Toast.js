@@ -5,7 +5,7 @@ const Toast = ({ name, icon, description, onClick }) => {
   return (
     <div
       id={name}
-      class="flex items-center p-4 mb-4 w-full max-w-xs text-gray-500 rounded-lg shadow mx-auto mt-10 bg-brand-quaternary "
+      class="flex items-center p-4 mb-4 w-full max-w-xs text-gray-500 rounded-lg shadow mx-auto mt-10 bg-brand-quinary "
       role="alert"
     >
       <div
@@ -22,7 +22,7 @@ const Toast = ({ name, icon, description, onClick }) => {
       <div class="ml-3 text-sm font-normal">{description}</div>
       <button
         type="button"
-        class="ml-auto -mx-1.5 -my-1.5 bg-brand-senary text-white hover:text-gray-400 rounded-lg focus:ring-2 focus:ring-gray-300 p-1.5 hover:bg-brand-quaternary inline-flex h-8 w-8 "
+        class="ml-auto -mx-1.5 -my-1.5  text-white hover:text-gray-400 rounded-lg focus:ring-2 focus:ring-gray-300 p-1.5 hover:bg-brand-senary bg-brand-quaternary inline-flex h-8 w-8 "
         data-dismiss-target="#toast-success"
         aria-label="Close"
         onClick={onClick}

@@ -11,7 +11,7 @@ const Gallery = () => {
   return (
     <Layout>
       <Seo />
-      <Container>
+      <Container className={'pt-[80px] sm:pt-[93px]'}>
         <ListProductMobile data={listGallery} />
         <ListProductDekstop data={listGallery} />
       </Container>

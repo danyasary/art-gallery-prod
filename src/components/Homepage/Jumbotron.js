@@ -12,7 +12,7 @@ const Jumbotron = () => {
   const [prevEl, prevElRef] = useSwiperRef()
 
   return (
-    <div className="w-full h-auto mb-14 md:mb-[100px]">
+    <div className="w-full h-auto mb-14 md:mb-[100px] pt-[80px] sm:pt-[93px]">
       <div className="flex flex-col">
         <Swiper
           // install Swiper modules

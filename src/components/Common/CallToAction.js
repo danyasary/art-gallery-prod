@@ -12,7 +12,7 @@ const CallToAction = () => {
   const [email, setEmail] = React.useState('')
   const [name, setName] = React.useState('')
   const [dataForm, setDataForm] = React.useState({})
-  const [alert, setAlert] = React.useState()
+  const [alert, setAlert] = React.useState('')
   const [isLoading, setLoading] = React.useState(false)
   const submitForm = async (e) => {
     e.preventDefault()
@@ -138,7 +138,7 @@ const CallToAction = () => {
                 id="name"
                 type="text"
                 placeholder="Input your name here..."
-                required
+                required={true}
                 onChange={(e) => setName(e.target.value)}
                 value={name}
               />
@@ -156,7 +156,7 @@ const CallToAction = () => {
                 id="email"
                 type="email"
                 placeholder="Input your e-mail here..."
-                required
+                required={true}
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
               />
@@ -170,6 +170,7 @@ const CallToAction = () => {
               data-aos-delay="600"
               onClick={submitForm}
               disabled={isLoading}
+              type="submit"
             >
               {isLoading ? (
                 <>

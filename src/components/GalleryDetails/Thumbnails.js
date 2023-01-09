@@ -6,7 +6,7 @@ const Thumbnails = ({ post }) => {
   // console.log('Breadcumb', post)
   return (
     <>
-      <Container className={'pt-7'}>
+      <Container className={'pt-[100px] sm:pt-[110px]'}>
         <Breadcumb title={post.title} />
       </Container>
     </>

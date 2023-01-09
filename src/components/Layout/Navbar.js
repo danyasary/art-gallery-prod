@@ -11,15 +11,15 @@ export default function Navbar() {
   // console.log('router', pathnameRegex)
   return (
     <>
-      <div className="w-full bg-quaternary relative z-10">
+      <div className="w-full bg-brand-quaternary fixed z-10 py-5">
         <Container>
           <Grid>
-            <div className="col-span-2 flex items-center">
+            <div className="col-span-1 sm:col-span-2 flex items-center">
               <Link href={'/'} passHref>
-                <a className="overflow-hidden w-[34px] h-[28px] md:w-[46px] md:h-[36px] lg:w-[97px] lg:h-[78px] object-cover relative">
+                <a className="overflow-hidden w-[41px] h-[30px] md:w-[46px] md:h-[36px] lg:w-[82px] lg:h-[60px]  object-cover relative">
                   <Image
-                    width={97}
-                    height={78}
+                    width={82}
+                    height={60}
                     src="/logo-art.png"
                     alt="Logo"
                     objectFit="fill"
@@ -28,14 +28,14 @@ export default function Navbar() {
                 </a>
               </Link>
             </div>
-            <div className="font-prettywise col-span-2 lg:col-span-4 lg:col-end-13 flex items-center justify-end gap-4 sm:gap-10">
+            <div className="font-prettywise col-span-3 lg:col-span-4 lg:col-end-13 flex items-center justify-end gap-4 sm:gap-10">
               <Link href={'/gallery'}>
                 <a
                   className={clsx(
-                    'transition-all   hover:text-brand-primary text-base lg:text-xl py-5 sm:py-[30px]  border-b-4 hover:border-brand-primary',
+                    'transition-all   hover:text-white hover:bg-brand-tertiary  hover:border-opacity-60 text-base lg:text-lg border border-brand-tertiary border-opacity-60 px-4 py-2 sm:px-5 sm:py-[10px]  rounded  text-white',
                     pathnameRegex === 'gallery'
-                      ? 'border-brand-primary text-brand-primary'
-                      : 'text-white border-b-transparent'
+                      ? 'bg-brand-tertiary'
+                      : ' bg-transparent '
                   )}
                 >
                   Gallery
@@ -44,10 +44,10 @@ export default function Navbar() {
               <Link href={'/contact'}>
                 <a
                   className={clsx(
-                    'transition-all   hover:text-brand-primary text-base lg:text-xl py-5 sm:py-[30px]  border-b-4 hover:border-brand-primary',
+                    'transition-all   hover:text-white hover:bg-brand-tertiary  hover:border-opacity-60 text-base lg:text-lg border border-brand-tertiary border-opacity-60 px-4 py-2 sm:px-5 sm:py-[10px]  rounded  text-white',
                     pathnameRegex === 'contact'
-                      ? 'border-brand-primary text-brand-primary'
-                      : 'text-white border-b-transparent'
+                      ? 'bg-brand-tertiary'
+                      : ' bg-transparent '
                   )}
                 >
                   Contact us
