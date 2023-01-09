@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import Product from './Product'
-import gallery from '@/data/gallery.json'
+import gallery from '@/api/gallery.json'
 const ListProductMobile = ({ data }) => {
   return (
     <div className={'grid grid-cols-2 lg:hidden mb-[245px]'}>

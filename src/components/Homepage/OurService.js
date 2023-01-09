@@ -3,7 +3,9 @@ import Button from '../Common/Button'
 import Grid from '../Common/Grid'
 import { Tab } from '@headlessui/react'
 import CardProduct from './components/CardProduct'
-import packageProduct from '@/data/packageProduct.json'
+import packageProduct from '@/api/packageProduct.json'
+
+// list pagkage product
 export const serviceButton = [
   'Rebel',
   'Cyberpunk',

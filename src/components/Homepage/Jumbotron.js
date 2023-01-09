@@ -5,7 +5,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper'
 
 import SlideJumbotron from './components/SlideJumbotron'
 import useSwiperRef from 'src/hooks/useSwiperRef'
-import dataSlider from '@/data/jumbotron.json'
+import dataSlider from '@/api/jumbotron.json'
 
 const Jumbotron = () => {
   const [nextEl, nextElRef] = useSwiperRef()

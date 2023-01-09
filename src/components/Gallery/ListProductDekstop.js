@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Image from 'next/image'
-import gallery from '@/data/gallery.json'
+import gallery from '@/api/gallery.json'
 import Link from 'next/link'
 
 const ListProductDekstop = ({ data }) => {
