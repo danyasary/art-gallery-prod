@@ -50,6 +50,7 @@ const Jumbotron = () => {
                 description={item.description}
                 image={item.image}
                 bg={item.bg}
+                slug={item.slug}
               />
             </SwiperSlide>
           ))}

@@ -4,7 +4,7 @@ import Grid from '@/components/Common/Grid'
 import Image from 'next/image'
 import React from 'react'
 
-const SlideJumbotron = ({ title, description, image, bg }) => {
+const SlideJumbotron = ({ title, description, image, bg, slug }) => {
   return (
     <div
       className="w-full bg-cover bg-no-repeat mb-7 lg:mb-8"
@@ -20,26 +20,36 @@ const SlideJumbotron = ({ title, description, image, bg }) => {
               >
                 {title}
               </h1>
-              {/* <h6 className="text-white text-xs lg:text-lg font-sf-pro ">
-                <strong> 1,334 people’s</strong> have teamed up with us to make
-                their imaginations come true.{' '}
+              <h6 className="text-white text-xs lg:text-lg font-sf-pro">
+                <strong className="font-semibold font-muara">
+                  {' '}
+                  1,334 people’s
+                </strong>{' '}
+                have teamed up with us to make their imaginations come true.{' '}
               </h6>
-              <h6 className="text-white mb-6 lg:mb-9 font-bold text-xs lg:text-lg font-sf-pro">
+              <h6 className="font-semibold font-muara text-xs lg:text-lg text-white mb-6 lg:mb-9 capitalize">
                 It’s your turn now!
-              </h6> */}
-              <h6
-                className="text-white text-xs lg:text-lg font-sf-pro mb-6 lg:mb-9"
+              </h6>
+              {/* <h6
+                className="text-white text-xs lg:text-lg font-sf-pro mb-6 lg:mb-5"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
                 {description}
               </h6>
+              <h6
+                className="font-semibold font-prettywise text-xs lg:text-lg text-white mb-6 lg:mb-9 capitalize"
+                data-aos="fade-up"
+                data-aos-delay="350"
+              >
+                {slug}
+              </h6> */}
 
               <Button
                 variant="primary"
                 className={'w-[162px] sm:w-auto'}
                 data-aos="fade-up"
-                data-aos-delay="350"
+                data-aos-delay="500"
               >
                 Learn More
               </Button>
