@@ -11,7 +11,7 @@ const Contact = () => {
       <Seo />
       <div className="w-full h-[580px] relative pt-[80px] sm:pt-[93px]">
         <Image
-          src="/contact/bg-artmazigh.png"
+          src="/contact/bg-contact-new.png"
           alt="Artmazigh"
           className={'absolute inset-0'}
           width={1920}

@@ -20,7 +20,7 @@ const SlideJumbotron = ({ title, description, image, bg, slug }) => {
               >
                 {title}
               </h1>
-              <h6 className="text-white text-xs lg:text-lg font-sf-pro">
+              <h6 className="text-white text-xs lg:text-lg font-sf-pro mb-5 lg:mb-5">
                 <strong className="font-semibold font-muara">
                   {' '}
                   1,334 people’s
