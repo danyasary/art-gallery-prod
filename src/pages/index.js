@@ -12,6 +12,7 @@ import OurService from '@/components/Homepage/OurService'
 import Testimony from '@/components/Homepage/Testimony'
 import TopSeller from '@/components/Homepage/TopSeller'
 import Layout from '@/components/Layout/Layout'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -21,9 +22,20 @@ export default function Home() {
       <Container className="mt-4">
         <AboutUs />
         <VisiMission />
+      </Container>
+      <div className="w-full h-full relative md:px-40 w-full mx-auto">
+        <Image
+          src="/homepage/bg-ourservice-gradation.png"
+          alt="Artmazigh"
+          className="absolute inset-0"
+          width={1920}
+          height={1080}
+          objectFit="cover"
+          layout="fill"
+        />
         <OurService />
         <TopSeller />
-      </Container>
+      </div>
       <Testimony />
     </Layout>
   )

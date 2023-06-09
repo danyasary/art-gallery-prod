@@ -4,7 +4,7 @@ import StarGolds from '../../../public/icons/star-gold.svg'
 
 const TopSeller = () => {
   return (
-    <Grid className={' mb-14 xl:mb-64 grid-cols-5 lg:grid-cols-12'}>
+    <Grid className={'mb-14 xl:mb-64 grid-cols-5 lg:grid-cols-12'}>
       <div
         className="col-span-2 xl:col-span-4 flex flex-col items-center justify-center"
         data-aos="fade-left"
