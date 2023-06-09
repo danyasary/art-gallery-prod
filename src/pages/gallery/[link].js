@@ -11,12 +11,13 @@ import listGallery from '@/api/gallery.json'
 import OtherProduct from '@/components/GalleryDetails/OtherProduct'
 
 const GalleryDetails = ({ post }) => {
+  console.log('POST', post)
   return (
     <Layout>
       <Seo />
       <Thumbnails post={post} />
       <Container className={'mb-52'}>
-        <Grid className={' pt-3 lg:pt-11'}>
+        <Grid className={'pt-3 lg:pt-11'}>
           <div className="col-span-full lg:col-span-5 -mx-8 sm:mx-0">
             <div
               className="w-full h-[170px] sm:h-[400px] lg:h-[664px] relative"

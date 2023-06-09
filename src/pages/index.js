@@ -5,6 +5,7 @@ import Container from '@/components/Common/Container'
 import Seo from '@/components/Common/Seo'
 
 import AboutUs from '@/components/Homepage/AboutUs'
+import VisiMission from '@/components/Homepage/VisiMission'
 
 import Jumbotron from '@/components/Homepage/Jumbotron'
 import OurService from '@/components/Homepage/OurService'
@@ -19,6 +20,7 @@ export default function Home() {
       <Jumbotron />
       <Container className="mt-4">
         <AboutUs />
+        <VisiMission />
         <OurService />
         <TopSeller />
       </Container>

@@ -4,6 +4,7 @@ import Grid from '../Common/Grid'
 import { Tab } from '@headlessui/react'
 import CardProduct from './components/CardProduct'
 import packageProduct from '@/api/packageProduct.json'
+import Image from 'next/image'
 
 // list pagkage product
 export const serviceButton = [

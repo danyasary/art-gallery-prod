@@ -10,7 +10,7 @@ const SlideJumbotron = ({ title, description, image, bg, slug }) => {
       className="w-full bg-cover bg-no-repeat mb-7 lg:mb-8"
       style={{ backgroundImage: `url('${bg}')` }}
     >
-      <div className="w-full h-full bg-slider ">
+      <div className="w-full h-full bg-slider">
         <Container className="py-9 lg:py-16">
           <Grid>
             <div className="col-span-4 sm:col-span-3 lg:col-span-6 pr-16 sm:pr-0 flex flex-col justify-center items-start">
