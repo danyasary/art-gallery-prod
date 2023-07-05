@@ -23,7 +23,7 @@ export default function Home() {
         <AboutUs />
         <VisiMission />
       </Container>
-      <div className="w-full h-full relative md:px-40 w-full mx-auto">
+      <div className="w-full h-[1300px] md:h-[1500px] px-5 relative md:px-40 mx-auto mb-5">
         <Image
           src="/homepage/bg-ourservice-gradation.png"
           alt="Artmazigh"

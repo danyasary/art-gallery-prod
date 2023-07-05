@@ -11,7 +11,7 @@ export default function Navbar() {
   // console.log('router', pathnameRegex)
   return (
     <>
-      <div className="w-full bg-brand-quaternary fixed z-10 py-5">
+      <div className="w-full bg-brand-quaternary fixed z-10 py-5 drop-shadow-lg">
         <Container>
           <Grid>
             <div className="col-span-1 sm:col-span-2 flex items-center">

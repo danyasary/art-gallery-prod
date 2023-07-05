@@ -23,15 +23,15 @@ const VisiMission = () => {
             Mission
           </h4>
           <ul className="text-l list-none list-outside ml-6 leading-8">
-            <li className="dots-white">
+            <li className="dots-white-visi">
               Doing illustration artworks based on freedom of expression and
               professionalism,
             </li>
-            <li className="dots-white">
+            <li className="dots-white-visi">
               Becoming a space for imaginators (clients) and illustrators to
               explore and communicate ideas and imaginations,
             </li>
-            <li className="dots-white">
+            <li className="dots-white-visi">
               Producing high-quality illustration arts by prioritizing the
               values of professionalism and beauty.
             </li>
