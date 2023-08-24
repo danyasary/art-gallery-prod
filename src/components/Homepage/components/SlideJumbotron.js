@@ -3,14 +3,16 @@ import Container from '@/components/Common/Container'
 import Grid from '@/components/Common/Grid'
 import Image from 'next/image'
 import React from 'react'
+import { useRouter } from 'next/router'
 
-const SlideJumbotron = ({ title, description, image, bg }) => {
+const SlideJumbotron = ({ title, description, image, bg, slug, url }) => {
+  const router = useRouter()
   return (
     <div
       className="w-full bg-cover bg-no-repeat mb-7 lg:mb-8"
       style={{ backgroundImage: `url('${bg}')` }}
     >
-      <div className="w-full h-full bg-slider ">
+      <div className="w-full h-full bg-slider">
         <Container className="py-9 lg:py-16">
           <Grid>
             <div className="col-span-4 sm:col-span-3 lg:col-span-6 pr-16 sm:pr-0 flex flex-col justify-center items-start">
@@ -20,26 +22,47 @@ const SlideJumbotron = ({ title, description, image, bg }) => {
               >
                 {title}
               </h1>
-              {/* <h6 className="text-white text-xs lg:text-lg font-sf-pro ">
-                <strong> 1,334 people’s</strong> have teamed up with us to make
-                their imaginations come true.{' '}
-              </h6>
-              <h6 className="text-white mb-6 lg:mb-9 font-bold text-xs lg:text-lg font-sf-pro">
-                It’s your turn now!
-              </h6> */}
               <h6
-                className="text-white text-xs lg:text-lg font-sf-pro mb-6 lg:mb-9"
+                className="text-white text-xs lg:text-lg font-sf-pro mb-5 lg:mb-5"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <strong className="font-semibold font-muara">
+                  {' '}
+                  1,334 people’s
+                </strong>{' '}
+                have teamed up with us to make their imaginations come true.{' '}
+              </h6>
+              <h6
+                className="font-semibold font-muara text-xs lg:text-lg text-white mb-6 lg:mb-9 capitalize"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                {slug}
+              </h6>
+              {/* <h6
+                className="text-white text-xs lg:text-lg font-sf-pro mb-6 lg:mb-5"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
                 {description}
               </h6>
+              <h6
+                className="font-semibold font-prettywise text-xs lg:text-lg text-white mb-6 lg:mb-9 capitalize"
+                data-aos="fade-up"
+                data-aos-delay="350"
+              >
+                {slug}
+              </h6> */}
 
               <Button
+                onClick={() => {
+                  router.push(url)
+                }}
                 variant="primary"
                 className={'w-[162px] sm:w-auto'}
                 data-aos="fade-up"
-                data-aos-delay="350"
+                data-aos-delay="200"
               >
                 Learn More
               </Button>

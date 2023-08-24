@@ -5,7 +5,7 @@ import React, { Fragment } from 'react'
 import ListProductMobile from '@/components/Gallery/ListProductMobile'
 import ListProductDekstop from '@/components/Gallery/ListProductDekstop'
 import Seo from '@/components/Common/Seo'
-import listGallery from '@/api/gallery.json'
+import listGallery from '../data/gallery.json'
 
 const Gallery = () => {
   return (

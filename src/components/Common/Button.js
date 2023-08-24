@@ -15,7 +15,7 @@ const Button = ({ children, variant, className, onClick, ...props }) => {
           'text-white bg-red-500 hover:bg-red-800 border-red-500 hover:border-red-800',
         ],
         variant === 'outline' && [
-          'text-white bg-transparent hover:bg-brand-primary border-white hover:border-brand-primary',
+          'text-white bg-transparent hover:bg-brand-primary border-[#525252] hover:border-brand-primary',
         ]
       )}
       {...props}

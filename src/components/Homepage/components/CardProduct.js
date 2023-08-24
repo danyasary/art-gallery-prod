@@ -29,8 +29,8 @@ const CardProduct = ({ namePackage, listItem, price, ...props }) => {
           })}
         </ul>
       </div>
-      <hr className="mt-auto border-neutral-50 max-w-[147px] mb-4 xl:mb-11 hidden sm:block" />
-      <div className="hidden sm:flex flex-col">
+      <hr className="mt-auto border-neutral-50 max-w-full mb-4 xl:mb-11 hidden sm:block" />
+      <div className="hidden sm:flex flex-col text-center">
         <p className="text-white mb-1 text-lg opacity-50">Starts from</p>
         <h6 className="text-white font-bold text-4xl xl:text-[68px] font-sf-pro">
           $ {price}

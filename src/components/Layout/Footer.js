@@ -14,11 +14,15 @@ const Footer = () => {
 
   return (
     <>
-      <div className="bg-brand-senary w-full  lg:h-[300px] xl:h-[388px]">
+      <div className="bg-brand-senary w-full lg:h-[300px] xl:h-[388px]">
         <Container className={'flex flex-col px-5'}>
           {router.pathname !== '/contact' ? <CallToAction /> : null}
 
-          <Grid className="bg-brand-senary mt-10 lg:mt-[84px]">
+          <Grid
+            className={`bg-brand-senary mt-10 ${
+              router.pathname === '/contact' ? 'lg:mt-[150px]' : 'lg:mt-[84px]'
+            } `}
+          >
             <div
               className="col-span-full  lg:col-span-3 flex items-center justify-center mx-auto row-start-1"
               data-aos="fade-down"

@@ -123,7 +123,7 @@
         "Black and white simple illustration or typographic design",
         "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "50"
+      "price": "30"
     },
     {
       "namePackage": "Medium Package",
@@ -132,7 +132,7 @@
         "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
         "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "80"
+      "price": "60"
     },
     {
       "namePackage": "Premium Package",
@@ -141,7 +141,7 @@
         "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
         "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
       ],
-      "price": "120"
+      "price": "90"
     }
   ],
   [
@@ -181,7 +181,7 @@
         "Black and white simple illustration or typographic design",
         "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "50"
+      "price": "65"
     },
     {
       "namePackage": "Medium Package",
@@ -199,7 +199,7 @@
         "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
         "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
       ],
-      "price": "120"
+      "price": "150"
     }
   ],
   [
@@ -236,6 +236,122 @@
       "namePackage": "Basic Package",
       "listItem": [
         "7 days delivery",
+        "1 character, 1 background/scene",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "2 characters, 1 background/scene, colorful design",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "150"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "4 characters, 1 background/scene, colorful design",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "200"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "1 base character and 1 flat background (colors only background)",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "65"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "1 base character, 1 trait/accessory and 1 flat background (colors only background)",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "1 base character, 2 traits/accessories and 1 background",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "120"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "1 final logo, 1 alternative sketches",
+        "1 initial concept, 1 revision, high resolution source file (vector file)"
+      ],
+      "price": "50"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "1 final logo, 3 alternative sketches",
+        "2 initial concept, 2 revisions, high resolution source file (vector file)"
+      ],
+      "price": "100"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "1 final logo, 3 alternative sketches",
+        "3 initial concept, 3 revisions, high resolution source file (vector file)"
+      ],
+      "price": "150"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
+        "Black and white simple illustration or typographic design",
+        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "65"
+    },
+    {
+      "namePackage": "Medium Package",
+      "listItem": [
+        "10 days delivery",
+        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
+        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
+      ],
+      "price": "80"
+    },
+    {
+      "namePackage": "Premium Package",
+      "listItem": [
+        "10 days delivery",
+        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
+        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+      ],
+      "price": "150"
+    }
+  ],
+  [
+    {
+      "namePackage": "Basic Package",
+      "listItem": [
+        "7 days delivery",
         "Black and white simple illustration or typographic design",
         "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
       ],
@@ -248,7 +364,7 @@
         "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
         "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "80"
+      "price": "90"
     },
     {
       "namePackage": "Premium Package",
@@ -277,123 +393,7 @@
         "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
         "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
       ],
-      "price": "80"
-    },
-    {
-      "namePackage": "Premium Package",
-      "listItem": [
-        "10 days delivery",
-        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
-        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
-      ],
-      "price": "120"
-    }
-  ],
-  [
-    {
-      "namePackage": "Basic Package",
-      "listItem": [
-        "7 days delivery",
-        "Black and white simple illustration or typographic design",
-        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "50"
-    },
-    {
-      "namePackage": "Medium Package",
-      "listItem": [
-        "10 days delivery",
-        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
-        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "80"
-    },
-    {
-      "namePackage": "Premium Package",
-      "listItem": [
-        "10 days delivery",
-        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
-        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
-      ],
-      "price": "120"
-    }
-  ],
-  [
-    {
-      "namePackage": "Basic Package",
-      "listItem": [
-        "7 days delivery",
-        "Black and white simple illustration or typographic design",
-        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "50"
-    },
-    {
-      "namePackage": "Medium Package",
-      "listItem": [
-        "10 days delivery",
-        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
-        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "80"
-    },
-    {
-      "namePackage": "Premium Package",
-      "listItem": [
-        "10 days delivery",
-        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
-        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
-      ],
-      "price": "120"
-    }
-  ],
-  [
-    {
-      "namePackage": "Basic Package",
-      "listItem": [
-        "7 days delivery",
-        "Black and white simple illustration or typographic design",
-        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "50"
-    },
-    {
-      "namePackage": "Medium Package",
-      "listItem": [
-        "10 days delivery",
-        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
-        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "80"
-    },
-    {
-      "namePackage": "Premium Package",
-      "listItem": [
-        "10 days delivery",
-        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
-        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
-      ],
-      "price": "120"
-    }
-  ],
-  [
-    {
-      "namePackage": "Basic Package",
-      "listItem": [
-        "7 days delivery",
-        "Black and white simple illustration or typographic design",
-        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "50"
-    },
-    {
-      "namePackage": "Medium Package",
-      "listItem": [
-        "10 days delivery",
-        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
-        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "80"
+      "price": "90"
     },
     {
       "namePackage": "Premium Package",

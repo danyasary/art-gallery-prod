@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Image from 'next/image'
-import gallery from '@/api/gallery.json'
 import Link from 'next/link'
 
 const ListProductDekstop = ({ data }) => {
@@ -12,7 +11,7 @@ const ListProductDekstop = ({ data }) => {
           return (
             <>
               {/* class parent harus relative kalo childrennya pake class absolute */}
-              <Link href={`/gallery/${gallery[i].link}`} passHref>
+              <Link href={`/gallery/${el.link}`}>
                 <a
                   data-aos="fade-up"
                   data-aos-anchor-placement="top-bottom"
@@ -24,16 +23,16 @@ const ListProductDekstop = ({ data }) => {
                       height={472}
                       objectFit="cover"
                       layout="fill"
-                      src={gallery[i].imgSrc}
-                      alt={gallery[i].title}
+                      src={el.imgSrc}
+                      alt={el.title}
                     />
                     <div className="bg-gallery top-0 left-0 bottom-0 right-0 flex absolute invisible group-hover:visible transition-all duration-100">
                       <div className="relative pb-10 px-8 flex flex-col mt-auto">
-                        <h5 className="text-base sm:text-xl text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  text-clip overflow-hidden mb-2 sm:mb-3 ">
-                          {gallery[i].title}
+                        <h5 className="text-base sm:text-xl text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100 flex-auto text-clip overflow-hidden mb-2 sm:mb-3 ">
+                          {el.title}
                         </h5>
-                        <p className="text-2xs sm:text-xs text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100  flex-auto  overflow-hidden whitespace-nowrap text-ellipsis max-w-[300px]">
-                          {gallery[i].description}
+                        <p className="text-2xs sm:text-xs text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100 flex-auto overflow-hidden whitespace-nowrap text-ellipsis max-w-[300px]">
+                          {el.description}
                         </p>
                       </div>
                     </div>
