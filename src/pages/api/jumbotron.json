@@ -8,27 +8,27 @@
     "url": "/gallery"
   },
   {
-    "title": "WE BELIEVE IN ADAPTABILITY",
-    "description": "1,334 people’s have teamed up with us to make their imaginations come true ",
-    "slug": "IT’S YOUR TURN NOW !",
+    "title": "THE DARK ART",
+    "description": "Dark art is one of the illustration genres that is often associated with images of chaos, horror, gothic, metaphysical, nightmares and is even considered very close to surrealism. At Artmazigh studio, we have special illustrators who are very competent in drawing this genre.",
+    "slug": "",
     "image": "",
     "bg": "/homepage/bg-slide-2-new.png",
     "url": "/gallery/dark-art"
   },
   {
-    "title": "WE BELIEVE IN KNOWLADGE",
-    "description": "1,334 people’s have teamed up with us to make their imaginations come true ",
-    "slug": "IT’S YOUR TURN NOW!",
+    "title": "REBEL ILLUSTRATION",
+    "description": "The rebel genre illustration is made by prioritizing stroke details, compositions, and colors. The aim is to make the illustrations represent the energy from the ideas and crazy imaginations of the imaginators (clients) accurately ",
+    "slug": "",
     "image": "",
     "bg": "/homepage/bg-slide-3-new.png",
     "url": "/gallery/rebel"
   },
   {
-    "title": "WE BELIEVE IN KNOWLADGE",
-    "description": "1,334 people’s have teamed up with us to make their imaginations come true ",
-    "slug": "IT’S YOUR TURN NOW!",
+    "title": "TRADITIONAL TATTO",
+    "description": "Traditional tattoo design usually depicts and emphasizes the traditional or legend stories from specific places or ethnic groups. Artmazigh is always try the best to learn the story behind the concept to make the design as close as the original stories and details. We keep it simple yet detailed",
+    "slug": "",
     "image": "",
-    "bg": "/homepage/bg-slide-4-new.png",
-    "url": "/gallery/edgy"
+    "bg": "/homepage/bg-slide-5-new.png",
+    "url": "/gallery/traditional-tatto"
   }
 ]

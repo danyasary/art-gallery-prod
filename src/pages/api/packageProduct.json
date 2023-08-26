@@ -204,29 +204,10 @@
   ],
   [
     {
-      "namePackage": "Basic Package",
-      "listItem": [
-        "7 days delivery",
-        "Black and white simple illustration or typographic design",
-        "1 initial concept, 1 revision, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "50"
-    },
-    {
-      "namePackage": "Medium Package",
-      "listItem": [
-        "10 days delivery",
-        "Medium complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max",
-        "1 character, 1 initial concept, 2 revisions, high resolution source files (PSD, JPG and PNG)"
-      ],
-      "price": "80"
-    },
-    {
       "namePackage": "Premium Package",
       "listItem": [
         "10 days delivery",
-        "A very complex illustration, 1 side design in colors, 1 side design for simple typography or part of the big design on the other side and max. 2 characters",
-        "1 initial concept, 3 revisions, high resolution source files (PSD, JPG and PNG) and mock up for your social media promotion"
+        "High quality animation video, transparent background, SFX, using your ready use logo"
       ],
       "price": "120"
     }

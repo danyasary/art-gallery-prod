@@ -86,6 +86,8 @@ const Testimony = () => {
                   totalStar={data.totalStar}
                   name={data.name}
                   img={data.img}
+                  purchased={data.purchased}
+                  country={data.country}
                 />
               </div>
             </SwiperSlide>
