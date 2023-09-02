@@ -45,10 +45,10 @@ const VisiMission = () => {
         <Image
           width={569}
           height={569}
-          src="/homepage/logo-art.png"
+          src="/homepage/logo-only.png"
           alt="About Us"
           layout="responsive"
-          objectFit="fill"
+          objectFit="contain"
           quality={100}
         />
       </div>
