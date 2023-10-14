@@ -11,7 +11,9 @@ import listGallery from '@/api/gallery.json'
 import OtherProduct from '@/components/GalleryDetails/OtherProduct'
 
 const GalleryDetails = ({ post }) => {
-  console.log('POST', post)
+  const [openPopUp, setOpenPopUp] = React.useState(false)
+  const onTogglePopUp = () => setOpenPopUp((prev) => !prev)
+
   return (
     <Layout>
       <Seo />
@@ -20,8 +22,9 @@ const GalleryDetails = ({ post }) => {
         <Grid className={'pt-3 lg:pt-11'}>
           <div className="col-span-full lg:col-span-5 -mx-8 sm:mx-0">
             <div
-              className="w-full h-[170px] sm:h-[400px] lg:h-[664px] relative"
+              className="w-full h-[170px] sm:h-[400px] lg:h-[664px] relative cursor-pointer"
               data-aos="fade-left"
+              onClick={onTogglePopUp}
             >
               <Image
                 width={498}
@@ -54,6 +57,27 @@ const GalleryDetails = ({ post }) => {
             <OtherProduct />
           </div>
         </Grid>
+        <div
+          className={`fixed top-0 left-0 z-[100] w-full h-full bg-[rgba(0,0,0,0.8)] ${
+            openPopUp ? 'visible' : 'invisible'
+          } transition-all duration-100`}
+        >
+          <span
+            className="absolute top-[5px] right-[20px] z-[100] text-3xl font-bold cursor-pointer"
+            onClick={onTogglePopUp}
+          >
+            &times;
+          </span>
+          <Image
+            width={498}
+            height={664}
+            alt="Art Magaize"
+            src={post.imgSrc || '/artworks/1.png'}
+            objectFit="contain"
+            layout="fill"
+            className="absolute top-[50%] left-[50%] block max-w-[95%] max-h-[95%]"
+          />
+        </div>
       </Container>
     </Layout>
   )

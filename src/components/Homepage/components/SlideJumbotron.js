@@ -27,11 +27,7 @@ const SlideJumbotron = ({ title, description, image, bg, slug, url }) => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <strong className="font-semibold font-muara">
-                  {' '}
-                  1,334 people’s
-                </strong>{' '}
-                have teamed up with us to make their imaginations come true.{' '}
+                {description}
               </h6>
               <h6
                 className="font-semibold font-muara text-xs lg:text-lg text-white mb-6 lg:mb-9 capitalize"
