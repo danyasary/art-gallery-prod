@@ -18,11 +18,11 @@ const ListProductDekstop = ({ data }) => {
                   data-aos-anchor-placement="top-bottom"
                   data-aos-delay={`${i * 200}`}
                 >
-                  <div className="w-full h-[603px] group relative flex-auto">
+                  <div className="w-full h-[603px] group relative flex-auto bg-[black]">
                     <Image
                       width={413}
                       height={603}
-                      objectFit="cover"
+                      objectFit="none"
                       layout="responsive"
                       src={el.imgSrc}
                       alt={el.title}

@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { BsTelegram, BsWhatsapp, BsInstagram, BsBehance } from 'react-icons/bs'
 import Fiverr from '../../../public/icons/Fiverr.svg'
 import { AiFillFacebook } from 'react-icons/ai'
 import { HiOutlineMail } from 'react-icons/hi'
-
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const ContactInformation = () => {
   const vars = [
@@ -18,7 +19,7 @@ const ContactInformation = () => {
       {
         url: 'https://www.fiverr.com/artmazigh',
         label: 'Fiverr',
-        logo: <Fiverr className='w-5 h-5' />,
+        logo: <Fiverr className="w-5 h-5" />,
       },
       {
         url: '',
@@ -52,9 +53,32 @@ const ContactInformation = () => {
     ],
   ]
 
+  /** Functions */
+  const notify = () => {
+    toast.success('Copy To Clipboard !', {
+      position: toast.POSITION.TOP_CENTER,
+      theme: 'dark',
+    })
+  }
+
+  const copyTextToClipboard = async (data) => {
+    if ('clipboard' in navigator) {
+      await navigator.clipboard.writeText(data)
+      notify()
+    } else {
+      document.execCommand('copy', true, data)
+      notify()
+    }
+  }
+
   return (
     <>
       <div className="text-white outline outline-brand-primary/20 outline-[8px] w-auto bg-brand-quaternary rounded-lg relative mt-[270px] mb-[84px]">
+        {
+          <div>
+            <ToastContainer />
+          </div>
+        }
         <div className="flex md:flex-row flex-col p-9 items-center">
           <div className="flex flex-col md:w-[30%] items-center md:items-baseline">
             <Link href="/">
@@ -91,11 +115,21 @@ const ContactInformation = () => {
                       <>
                         <div className="flex flex-row items-center mb-5 md:mb-0 px-[40px] py-2 gap-[10px] transition-all hover:text-white hover:bg-brand-tertiary hover:border-opacity-60 text-base lg:text-lg border border-brand-tertiary border-2 border-opacity-60 rounded-lg text-brand-primary cursor-pointer w-full md:w-[250px]">
                           {detail.logo}
-                          <Link href={detail.url}>
-                            <a href={detail.url} target="_blank">
-                              {detail.label}
-                            </a>
-                          </Link>
+                          {detail.label === 'Email' ? (
+                            <button
+                              onClick={() =>
+                                copyTextToClipboard('Artmazigh01@gmail.com')
+                              }
+                            >
+                              Email
+                            </button>
+                          ) : (
+                            <Link href={detail.url}>
+                              <a href={detail.url} target="_blank">
+                                {detail.label}
+                              </a>
+                            </Link>
+                          )}
                         </div>
                       </>
                     )
