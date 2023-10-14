@@ -22,7 +22,7 @@ const ListProductDekstop = ({ data }) => {
                     <Image
                       width={413}
                       height={603}
-                      objectFit="none"
+                      objectFit="contain"
                       layout="responsive"
                       src={el.imgSrc}
                       alt={el.title}
