@@ -113,24 +113,30 @@ const ContactInformation = () => {
                   {el.map((detail) => {
                     return (
                       <>
-                        <div className="flex flex-row items-center mb-5 md:mb-0 px-[40px] py-2 gap-[10px] transition-all hover:text-white hover:bg-brand-tertiary hover:border-opacity-60 text-base lg:text-lg border border-brand-tertiary border-2 border-opacity-60 rounded-lg text-brand-primary cursor-pointer w-full md:w-[250px]">
-                          {detail.logo}
-                          {detail.label === 'Email' ? (
-                            <button
-                              onClick={() =>
-                                copyTextToClipboard('Artmazigh01@gmail.com')
-                              }
+                        {detail.label === 'Email' ? (
+                          <button
+                            className="flex flex-row items-center mb-5 md:mb-0 px-[40px] py-2 gap-[10px] transition-all hover:text-white hover:bg-brand-tertiary hover:border-opacity-60 text-base lg:text-lg  border-brand-tertiary border-2 border-opacity-60 rounded-lg text-brand-primary cursor-pointer w-full md:w-[250px]"
+                            onClick={() =>
+                              copyTextToClipboard('Artmazigh01@gmail.com')
+                            }
+                          >
+                            {detail.logo}
+                            Email
+                          </button>
+                        ) : (
+                          <>
+                            <a
+                              href={detail.url}
+                              target="_blank"
+                              className="flex flex-row flex-nowrap items-center mb-5 md:mb-0 px-[40px] py-2 gap-[10px] transition-all hover:text-white hover:bg-brand-tertiary hover:border-opacity-60 text-base lg:text-lg  border-brand-tertiary border-2 border-opacity-60 rounded-lg text-brand-primary cursor-pointer w-full md:w-[250px]"
                             >
-                              Email
-                            </button>
-                          ) : (
-                            <Link href={detail.url}>
-                              <a href={detail.url} target="_blank">
+                              <p className="flex justify-center gap-2 items-center">
+                                {detail.logo}
                                 {detail.label}
-                              </a>
-                            </Link>
-                          )}
-                        </div>
+                              </p>
+                            </a>
+                          </>
+                        )}
                       </>
                     )
                   })}
