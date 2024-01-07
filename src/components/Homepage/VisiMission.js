@@ -20,7 +20,7 @@ const VisiMission = () => {
         </div>
         <div className="flex flex-col">
           <h4 className="font-prettywise text-xl lg:text-center lg:text-2xl font-semibold mb-1">
-            Mission
+            Missions
           </h4>
           <ul className="text-l list-none list-outside ml-6 leading-8">
             <li className="dots-white-visi">

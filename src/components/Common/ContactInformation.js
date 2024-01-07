@@ -22,14 +22,14 @@ const ContactInformation = () => {
         logo: <Fiverr className="w-5 h-5" />,
       },
       {
-        url: '',
+        url: 'https://t.me/artmazigh_std',
         label: 'Telegram',
         logo: <BsTelegram />,
       },
     ],
     [
       {
-        url: 'https://wa.me/081233830041',
+        url: 'https://wa.me/+6281233830041',
         label: 'Whatsapp',
         logo: <BsWhatsapp />,
       },
@@ -96,8 +96,7 @@ const ContactInformation = () => {
                 Artmazigh studios
               </p>
               <p className="text-xs lg:text-base text-center md:text-left lg:text-left">
-                160 Robinson Road, #14-04 Singapore Business Federation Centre -
-                068914, Singapore
+                Surabaya, Indonesia
               </p>
             </div>
           </div>
@@ -114,15 +113,13 @@ const ContactInformation = () => {
                     return (
                       <>
                         {detail.label === 'Email' ? (
-                          <button
+                          <a
                             className="flex flex-row items-center mb-5 md:mb-0 px-[40px] py-2 gap-[10px] transition-all hover:text-white hover:bg-brand-tertiary hover:border-opacity-60 text-base lg:text-lg  border-brand-tertiary border-2 border-opacity-60 rounded-lg text-brand-primary cursor-pointer w-full md:w-[250px]"
-                            onClick={() =>
-                              copyTextToClipboard('Artmazigh01@gmail.com')
-                            }
+                            href={detail.url}
                           >
                             {detail.logo}
                             Email
-                          </button>
+                          </a>
                         ) : (
                           <>
                             <a

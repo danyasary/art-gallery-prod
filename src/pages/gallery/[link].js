@@ -44,10 +44,10 @@ const GalleryDetails = ({ post }) => {
             <p className="text-xs sm:text-base">{post.description}</p>
             <div className="aspect-video">
               <iframe
-                src={'https://www.youtube.com/embed/' + post.youtube}
-                title={'video title'}
+                src={post.youtube}
+                title="YouTube video player"
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
                 className="w-full h-full"
               ></iframe>
